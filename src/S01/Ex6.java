@@ -9,7 +9,7 @@ public class Ex6 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        SimpleDateFormat df1 = new java.text.SimpleDateFormat("dd/MM/yyyy");
+        SimpleDateFormat df1 = new SimpleDateFormat("dd/MM/yyyy");
         System.out.println("Digite o dia do seu nascimento: ");
         int dia = scanner.nextInt();
         System.out.println("Digite o mes que você nasceu ");
